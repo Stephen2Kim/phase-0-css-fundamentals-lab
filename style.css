@@ -3,3 +3,45 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  text-align: center;
+}
+
+figcaption {
+  font-size: small;
+  text-align: center;
+}
+
+img {
+  display: block; /* Ensures the image is displayed as a block element */
+  margin: 0 auto; /* Centers the image horizontally */
+}
+
+a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: grey;
+}
+
+nav {text-align: center;}
+
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#details {
+  clear: both;
+}
+
+#details div {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  background-color: #f52f2f;
+  border: 1px solid #f52f2f;
+}
